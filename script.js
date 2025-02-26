@@ -12,20 +12,22 @@ class Dog extends Animal {
 	constructor(){
 		super("Dog")
 	}
-}
-makeSound(){
+	makeSound(){
 	console.log("woof")
+}
+
 }
 
 class Cat extends Animal {
 	constructor(){
 		super("Cat")
 	}
-}
-makeSound(){
+	makeSound(){
 	console.log("purr")
 	
 }
+}
+
 
 // Do not change the code below this line
 window.Animal = Animal;
