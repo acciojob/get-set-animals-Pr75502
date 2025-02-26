@@ -31,7 +31,7 @@ class Cat extends Animal {
     }
 	
 }
-}
+
 
 
 // Do not change the code below this line
