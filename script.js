@@ -17,9 +17,9 @@ class Dog extends Animal {
        console.log(`The ${this.species} makes a sound`)
     }
    
-    // bark() { 
-    //     console.log("woof");
-    // }
+    bark() { 
+        console.log("woof");
+    }
 
 }
 
@@ -30,9 +30,9 @@ class Cat extends Animal {
 	 makeSound() { 
        console.log(`The ${this.species} makes a sound`)
     }
-	 // purr() { 
-  //       console.log("purr");
-  //   }
+	 purr() { 
+        console.log("purr");
+    }
 	
 }
 
